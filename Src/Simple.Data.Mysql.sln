@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Data.Mysql", "Simple.Data.Mysql\Simple.Data.Mysql.csproj", "{6BB6D48E-E2AB-4AF7-8FE3-10A3AACE3FC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Data.Mysql.Test", "Simple.Data.Mysql.Test\Simple.Data.Mysql.Test.csproj", "{B6507B06-C337-4661-B5D0-E23786CDEE87}"
@@ -8,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Data.Mysql5.Test.Features", "Simple.Data.Mysql5.Test.Features\Simple.Data.Mysql5.Test.Features.csproj", "{616499DF-BA33-4F6A-BEDB-2D7511C45B6A}"
 EndProject
 Global
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 085e40be-dbb7-46bb-9fe5-dff82f3977cb
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
